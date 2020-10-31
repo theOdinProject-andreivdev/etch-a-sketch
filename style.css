@@ -1,0 +1,28 @@
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset {
+  border: 1px solid grey;
+  padding: 10px 40px;
+  margin: 10px;
+  transition-duration: 0.1s;
+}
+
+.resetEffect {
+  transform: scale(1.1);
+  background-color: lightskyblue;
+}
+
+.grid {
+  border: 1px solid grey;
+  width: 450px;
+  height: 450px;
+  display: grid;
+}
