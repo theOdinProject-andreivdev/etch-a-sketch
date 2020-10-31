@@ -9,7 +9,7 @@ let grid = document.querySelector(".grid");
 setup();
 
 function setup() {
-  let gridSize = prompt("Please enter grid size");
+  let gridSize = prompt("Please enter grid size (0-20)");
   clearGrid();
   drawGrid(gridSize);
 }
